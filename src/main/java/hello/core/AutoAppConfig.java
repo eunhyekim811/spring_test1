@@ -29,9 +29,9 @@ public class AutoAppConfig {
 //        return new OrderServiceImpl(memberRepository, discountPolicy);
 //    }
 
-    @Bean(name = "memoryMemberRepository")
-    public MemberRepository memberRepository(){
-        return new MemoryMemberRepository();
-    }
-//    --> overriding bean definition(수동 빈 등록이 우선권을 가짐)
+//    @Bean(name = "memoryMemberRepository")
+//    public MemberRepository memberRepository(){
+//        return new MemoryMemberRepository();
+//    }
+////    --> overriding bean definition(수동 빈 등록이 우선권을 가짐)
 }
